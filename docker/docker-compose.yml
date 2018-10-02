@@ -1,0 +1,6 @@
+regex101:
+    image: loopsun/regex101:latest
+    container_name: regex101
+    restart: always
+    ports:
+     - 9090:9090
